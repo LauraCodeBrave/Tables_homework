@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+       table{
+        width:100%;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid  rgba(163, 161, 161, 0.333);
+       }
+       th{
+          background-color: rgb(74, 127, 250);
+       }
+       td{
+        background-color: rgba(224, 223, 223, 0.333);
+       }
+       td:hover{
+        color:rgb(25, 207, 25);
+       }
+       #passed{
+        color: green;
+        font-weight: bold;
+       }
+       #failed{
+        color:red;
+        font-weight: bold;
+       }
+       p{
+        color: gray;
+       }
+    </style>
+</head>
+<body>
+    <h1>Student Performance Report</h1>
+    <p>This table shows the basic information of students,including their grades and pass/fail status</p>
+       <table>
+        <caption>Student Information Table</caption>
+        <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+            <th>Email</th>
+            <th>Favorite Subject</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>101</td>
+            <td>Joe khalil</td>
+            <td>17</td>
+            <td>88</td>
+            <td>Joe.Khalil@example.com</td>
+            <td>Math</td>
+            <td id="passed">Passed</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>David Hatem</td>
+            <td>18</td>
+            <td>92</td>
+            <td>daivid.hatem@example.com</td>
+            <td>Science</td>
+            <td id="passed">Passed</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Layka Jaber</td>
+            <td>17</td>
+            <td>59</td>
+            <td>layla.jaber@example.com</td>
+            <td>History</td>
+            <td id="failed">Failed</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Lina Saleh</td>
+            <td>16</td>
+            <td>76</td>
+            <td>lina.saleh@example.com</td>
+            <td>English</td>
+            <td id="passed">Passed</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Sarah Fares</td>
+            <td>18</td>
+            <td>45</td>
+            <td>sarah.fares@example.com</td>
+            <td>Art</td>
+            <td id="failed">Failed</td>
+        </tr>
+        </tbody>
+       </table>
+</body>
+</html>
